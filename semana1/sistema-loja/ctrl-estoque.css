@@ -1,0 +1,48 @@
+body {
+  background-color: lightgray;
+  margin: 5px;
+  margin-bottom: 50px;
+}
+
+#upper-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#navigation {
+  text-align: center;
+  padding: 2px;
+  
+}
+
+a {
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  position: relative;
+}
+
+.imgs {
+  width: 5%;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+}
+
+.table {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}

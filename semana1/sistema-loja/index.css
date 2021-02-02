@@ -1,0 +1,40 @@
+.header {
+  background-color: lightgray;
+}
+
+.upper-title {
+  text-align: center;
+}
+
+.navigation {
+  text-align: center;
+  padding: 2px;
+}
+
+a {
+ margin: 10px;
+}
+
+.info {
+  text-align: center;
+  margin: 20px;
+  white-space: pre-line;
+}
+
+.imgs {
+  width: 5%;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+
+body {
+  background-color: lightgray;
+  margin-bottom: 50px;
+}

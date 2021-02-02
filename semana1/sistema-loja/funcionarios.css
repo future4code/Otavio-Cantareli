@@ -1,0 +1,39 @@
+body {
+  background-color: lightgray;
+}
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.imgs {
+  width: 5%;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+a {
+  margin: 10px;
+}
+
+.table {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
