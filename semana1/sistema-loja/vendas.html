@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" />
+    <link rel="stylesheet" href="vendas.css" />
+    <title>Revisar pedido</title>
+  </head>
+  <body>
+    <p id="title">Vila Oculta da Folha</p>
+    <audio
+      src="./Naruto Soundtrack - Naruto Main Theme.mp3"
+      loop="true"
+      autoplay="true"
+      hidden="true"
+    ></audio>
+    <header class="header">
+      <div class="navigation">
+        <a href="./index.html">Página Inicial</a>
+        <a href="./ctrl-estoque.html">Controle de Estoque</a>
+        <a href="./add-produto.html">Adicionar Produto</a>
+        <a href="./funcionarios.html">Funcionários</a>
+        <a href="./vendas.html">Vendas</a>
+        <a href="./historico.html">Histórico de vendas</a>
+      </div>
+    </header>
+
+    <h2>Revisar pedido</h2>
+
+    <table class="table">
+      <ul class="produtos">
+        <ul>
+          <li>Kunai</li>
+          <label for="qtde">Quantidade</label>
+          <input type="number" name="qtde" min="0" value="0" />
+        </ul>
+        <br />
+        <ul>
+          <li>Shuriken</li>
+          <label for="qtde">Quantidade</label>
+          <input type="number" name="qtde" min="0" value="0" />
+        </ul>
+        <br />
+        <ul>
+          <li>Bandana</li>
+          <label for="qtde">Quantidade</label>
+          <input type="number" name="qtde" min="0" value="0" />
+        </ul>
+        <br />
+        <ul>
+          <li>Marionete</li>
+          <label for="qtde">Quantidade</label>
+          <input type="number" name="qtde" min="0" value="0" />
+        </ul>
+        <br />
+        <ul>
+          <li>Sharingan</li>
+          <label for="qtde">Quantidade</label>
+          <input type="number" name="qtde" min="0" value="0" />
+        </ul>
+        <input type="radio" id="cartao" name="pagamento" value="cartao" />
+        <label for="cartao">Cartão</label
+        ><br />
+        <input type="radio" id="dinheiro" name="pagamento" value="dinheiro" />
+        <label for="dinheiro">Dinheiro</label
+        ><br />
+      </ul>
+
+    </table>
+
+    <footer class="footer">
+      <div>
+        <p>Siga-nos nas redes sociais!</p>
+
+        <div>
+          <img
+            class="imgs"
+            src="https://image.flaticon.com/icons/png/512/25/25305.png"
+          />
+          <img
+            class="imgs"
+            src="https://image.flaticon.com/icons/png/512/25/25425.png"
+          />
+          <img
+            class="imgs"
+            src="https://image.flaticon.com/icons/png/512/8/8800.png"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

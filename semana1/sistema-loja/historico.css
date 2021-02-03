@@ -15,9 +15,9 @@ a {
  margin: 10px;
 }
 
-.info {
-  text-align: center;
-  margin: 20px;
+.vendas {
+  text-align: start;
+  /* margin: 20px; */
   white-space: pre-line;
 }
 
@@ -37,4 +37,13 @@ a {
 body {
   background-color: lightgray;
   margin-bottom: 50px;
+}
+
+#title {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
 }
