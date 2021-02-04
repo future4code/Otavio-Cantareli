@@ -151,6 +151,9 @@ input {
   font-size: 10px;
   color: black;
 }
+div {
+  text-align: center;
+}
 
 #back-button:hover {
   background-color: #635a3d;
