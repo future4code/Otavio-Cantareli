@@ -86,7 +86,6 @@ a {
   padding: 15px 0px;
   position: relative;
   top: 100px;
-
 }
 
 #container-de-descricao > h3 {
@@ -119,7 +118,6 @@ div:last-child {
 table {
   width: 100%;
   text-align: center;
-  
 }
 
 td button {
@@ -133,6 +131,14 @@ td button {
 .container-do-search {
   margin-top: 20px;
   height: 100px;
+  
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
 }
 
 #back-button {
