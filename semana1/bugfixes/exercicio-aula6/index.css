@@ -73,7 +73,6 @@ a {
 #container-de-descricao {
   background-color: #2274a5;
   color: white;
-  /* position: relative; */
   top: 100px;
 }
 
@@ -148,4 +147,9 @@ td button {
 
 #back-button:hover {
   background-color: #635a3d;
+}
+
+td > img {
+  width: 50px;
+  height: 50px;
 }
