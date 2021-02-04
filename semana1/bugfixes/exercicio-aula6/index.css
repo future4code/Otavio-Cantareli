@@ -154,6 +154,10 @@ td > img {
   height: 50px;
 }
 
+td > button:hover {
+  background-color: #a78f28;
+}
+
 .icone {
   width: 20px;
   height: 20px;
