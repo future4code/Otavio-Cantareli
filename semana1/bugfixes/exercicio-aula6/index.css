@@ -87,7 +87,7 @@ a {
   padding: 15px 0px;
   position: relative;
   top: 100px;
-  
+
 }
 
 #container-de-descricao > h3 {
@@ -118,7 +118,9 @@ div:last-child {
 }
 
 table {
-  width: 60%;
+  width: 100%;
+  text-align: center;
+  
 }
 
 td button {
